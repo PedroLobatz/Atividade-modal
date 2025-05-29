@@ -1,0 +1,108 @@
+body{
+    background-color: #495057;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: 15px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+       
+   
+}
+.conteudo{
+    color: aliceblue;
+    max-width: 600px;
+    margin-left: 500px;
+
+}
+ 
+.logo_pequena img{
+    width: 80px;
+    padding-left: 5px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+
+    
+   
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+}
+.menu ul li{
+    padding: 20px;
+}
+ 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+.logo-escrito img{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 0 auto;
+
+}
+.botao{
+    color: aliceblue;
+    background-color: black;
+    height: 55px;
+}
+.imagemD{
+    text-align: end;
+    margin-right: 100px;
+ 
+}
+.textoD{
+    width: 40%;
+    margin-left: 430px;
+    color: aliceblue;
+}
+
+.modal{
+    position:fixed ;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content{
+    
+    margin: 15% auto;
+    padding: 8px;
+    border-radius: 5px;
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.btnFechar{
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
